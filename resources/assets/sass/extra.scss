@@ -1,0 +1,81 @@
+.error{
+    border: 2px solid red;
+}
+.errorTd{
+  background-color: #f0ad4e !important;
+  color: #000000 !important;
+}
+.inputColorTd{
+  background-color: white;
+}
+.notSerialized{
+  background-color: #f0ad4e !important;
+  color: #000000 !important;
+}
+.partSerialized{
+  background-color: #31b0d5 !important;
+  color: #000000 !important;
+}
+.viewcolor{
+  color: #ffffff;
+  margin: 2px;
+  text-decoration: none;
+}
+.issuecolor{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 2px;
+}
+.fullySerialized{
+  background-color: #82b965 !important;
+  color: #000000 !important;
+}
+a:hover, a:visited, a:link, a:active{
+  text-decoration: none !important;
+}
+.warrantyError{
+  background-color: #f0ad4e !important;
+  color: #000000 !important;
+}
+
+.serialError{
+  background-color: #f55549 !important;
+  color: #000000 !important;
+}
+
+.alignVertical{
+  vertical-align: middle;
+}
+.globalmargin{
+  margin-bottom: 1px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 1px;
+}
+
+.table > thead > tr > th, .table > thead > tr > td, .table > tbody > tr > th, .table > tbody > tr > td, .table > tfoot > tr > th, .table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.6;
+  vertical-align: middle;
+  border-top: 1px solid #ddd;
+}
+.colorwhite{
+  color: #ffffff !important;
+}
+.mainThemeColor{
+  background-color: #0084B4 !important;
+}
+#dnotefooter{
+  display: none;
+}
+#issuebutton{
+  display: block;
+}
+@media print {
+  #dnotefooter{
+    display: block;
+  }
+  #issuebutton{
+    display: none;
+  }
+}
